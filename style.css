@@ -1,0 +1,61 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            background-color: #222; /* Dark background for contrast */
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #ffffff; /* White color for header */
+            text-align: center;
+            margin: 10px 0;
+        }
+        h2 {
+            color: #b0bec5; /* Cool grey color for subheader */
+            text-align: center;
+            margin: 10px 0;
+        }
+        label {
+            color: #ffffff; /* White color for label */
+            margin-top: 10px;
+        }
+        input, select, button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            max-width: 300px;
+            background-color: #333; /* Dark input background */
+            color: #fff; /* White text for inputs */
+            border: 1px solid #555; /* Border color */
+            border-radius: 4px;
+        }
+        button {
+            background-color: #444;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        #nickname {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff; /* White color for output text */
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            input, select, button {
+                font-size: 14px;
+                padding: 8px;
+            }
+            #nickname {
+                font-size: 20px;
+            }
+        }
+    </style>
